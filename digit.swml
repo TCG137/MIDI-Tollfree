@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Switch expression="{{Digits}}">
+    <Case value="1">
+      <Say>Playing Nine K X Two.</Say>
+      <Play>https://tcg137.s-ul.eu/xxE9NyRE</Play>
+    </Case>
+    <Case value="2">
+      <Say>Playing Hypernova.</Say>
+      <Play>https://tcg137.s-ul.eu/oA3Au4Xj</Play>
+    </Case>
+    <Case value="3">
+      <Say>Playing Tau.</Say>
+      <Play>https://tcg137.s-ul.eu/lHSlaSyx</Play>
+    </Case>
+    <Case value="4">
+      <Say>Playing Pi.</Say>
+      <Play>https://tcg137.s-ul.eu/NUWqadlb</Play>
+    </Case>
+    <Case value="5">
+      <Say>Playing Bad Apple Acer Variation.</Say>
+      <Play>https://tcg137.s-ul.eu/cgnGFyEh</Play>
+    </Case>
+    <Case value="6">
+      <Say>Playing R S T.</Say>
+      <Play>https://tcg137.s-ul.eu/5E6qjSKq</Play>
+    </Case>
+    <Case value="7">
+      <Say>Playing Shanghai Teahouse.</Say>
+      <Play>https://tcg137.s-ul.eu/OhWg6cnQ</Play>
+    </Case>
+    <Case value="8">
+      <Say>Playing Last Brutal Sister Flandere S.</Say>
+      <Play>https://tcg137.s-ul.eu/C74ZMqwl</Play>
+    </Case>
+    <Case value="9">
+      <Say>We currently lack funding so we do not have an agent to take your call, instead listen to this sick ass hold music made by The Cat Gamer 137.</Say>
+      <Play>https://tcg137.s-ul.eu/gPmPQhEy</Play>
+    </Case>
+    <Case value="0">
+      <Say>A link to the Black MIDI Community Hub has been sent to your phone.</Say>
+      <Message>Link is not currently available due to an unknown reason.</Message>
+    </Case>
+    <Default>
+      <Say>Invalid option. Goodbye.</Say>
+    </Default>
+  </Switch>
+</Response>
